@@ -3,11 +3,12 @@ const path = require('path');
 
 try {
   [
-    './bin/grunt-brk',
-    './bin/grunt-brk.cmd'
+    'grunt-brk',
+    'grunt-brk.cmd'
   ].forEach((name)=>{
-    const src = path.join(__dirname, name);
-    const dest = path.join(__dirname, '../../', name);
+    const src = path.join(__dirname, "bin", name);
+    const dest = path.join(__dirname, '../..', name);
+    console.log("Copying ", src, dest);
     fs.copySync(src, dest);
     fs.chmodSync(src, 0777);
   });

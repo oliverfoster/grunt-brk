@@ -1,6 +1,6 @@
 {
   "name": "grunt-brk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Run grunt with --inspect-brk",
   "scripts": {
     "install": "node install.js"
