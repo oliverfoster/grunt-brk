@@ -1,12 +1,15 @@
 # grunt-brk
 Run `grunt` with `--inspect-brk`  
-  
-### Installation:  
+
+### Installation:
 `$ npm install -g grunt-brk`  
 
 ### Usage:
-Run
-`$ grunt-brk command`
-
-Instead of
+Instead of  
 `$ grunt command`  
+  
+Run  
+`$ grunt-brk command`  
+  
+Visit  
+[chrome://inspect/#devices](chrome://inspect/#devices)
